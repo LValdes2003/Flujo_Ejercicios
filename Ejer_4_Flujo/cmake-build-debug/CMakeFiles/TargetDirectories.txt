@@ -1,0 +1,3 @@
+C:/Users/Oblitionmaster/CLionProjects/Ejer 1/cmake-build-debug/CMakeFiles/Ejer_1.dir
+C:/Users/Oblitionmaster/CLionProjects/Ejer 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Oblitionmaster/CLionProjects/Ejer 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
