@@ -67,6 +67,12 @@ build CMakeFiles/Flujo_Ejercicios.dir/circulo.cpp.obj: CXX_COMPILER__Flujo_Ejerc
   OBJECT_DIR = CMakeFiles\Flujo_Ejercicios.dir
   OBJECT_FILE_DIR = CMakeFiles\Flujo_Ejercicios.dir
 
+build CMakeFiles/Flujo_Ejercicios.dir/ClaseCirculo.cpp.obj: CXX_COMPILER__Flujo_Ejercicios_unscanned_Debug C$:/Users/Diego/Documents/GitHub/Flujo_Ejercicios/ClaseCirculo.cpp || cmake_object_order_depends_target_Flujo_Ejercicios
+  DEP_FILE = CMakeFiles\Flujo_Ejercicios.dir\ClaseCirculo.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Flujo_Ejercicios.dir
+  OBJECT_FILE_DIR = CMakeFiles\Flujo_Ejercicios.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Flujo_Ejercicios
@@ -75,7 +81,7 @@ build CMakeFiles/Flujo_Ejercicios.dir/circulo.cpp.obj: CXX_COMPILER__Flujo_Ejerc
 #############################################
 # Link the executable Flujo_Ejercicios.exe
 
-build Flujo_Ejercicios.exe: CXX_EXECUTABLE_LINKER__Flujo_Ejercicios_Debug CMakeFiles/Flujo_Ejercicios.dir/main.cpp.obj CMakeFiles/Flujo_Ejercicios.dir/triangulo.cpp.obj CMakeFiles/Flujo_Ejercicios.dir/circulo.cpp.obj
+build Flujo_Ejercicios.exe: CXX_EXECUTABLE_LINKER__Flujo_Ejercicios_Debug CMakeFiles/Flujo_Ejercicios.dir/main.cpp.obj CMakeFiles/Flujo_Ejercicios.dir/triangulo.cpp.obj CMakeFiles/Flujo_Ejercicios.dir/circulo.cpp.obj CMakeFiles/Flujo_Ejercicios.dir/ClaseCirculo.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Flujo_Ejercicios.dir

@@ -7,4 +7,5 @@ add_executable(Flujo_Ejercicios
         main.cpp
         triangulo.cpp
         circulo.cpp
-        Geometria.h)
+        Geometria.h
+)

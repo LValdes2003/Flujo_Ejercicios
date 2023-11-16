@@ -1,9 +1,7 @@
 # ninja log v5
-13	937	7218389129640611	CMakeFiles/Flujo_Ejercicios.dir/main.cpp.obj	980b42f376ab3761
-947	1296	7218380760529770	Flujo_Ejercicios.exe	9c9bbf0025f16f0f
-6	303	7218389123275019	CMakeFiles/Flujo_Ejercicios.dir/triangulo.cpp.obj	4e763373545f78c6
-22	264	7218389122905585	CMakeFiles/Flujo_Ejercicios.dir/circulo.cpp.obj	b262e0d6179d2d8f
-7	301	7218391842223086	CMakeFiles/Flujo_Ejercicios.dir/triangulo.cpp.obj	4e763373545f78c6
-26	319	7218391842443296	CMakeFiles/Flujo_Ejercicios.dir/circulo.cpp.obj	b262e0d6179d2d8f
 19	874	7218391848007079	CMakeFiles/Flujo_Ejercicios.dir/main.cpp.obj	980b42f376ab3761
 875	1140	7218391850487352	Flujo_Ejercicios.exe	1cefb87e74365956
+7	301	7218391842223086	CMakeFiles/Flujo_Ejercicios.dir/triangulo.cpp.obj	4e763373545f78c6
+26	319	7218391842443296	CMakeFiles/Flujo_Ejercicios.dir/circulo.cpp.obj	b262e0d6179d2d8f
+16	122	7218405254554041	CMakeFiles/Flujo_Ejercicios.dir/ClaseCirculo.cpp.obj	37bd6b12238ce826
+8	1087	7218405264185961	CMakeFiles/Flujo_Ejercicios.dir/main.cpp.obj	980b42f376ab3761
