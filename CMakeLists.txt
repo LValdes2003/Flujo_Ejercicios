@@ -4,4 +4,8 @@ project(Flujo_Ejercicios)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Flujo_Ejercicios
-        main.cpp)
+        main.cpp
+        triangulo.cpp
+        circulo.cpp
+        Geometria.h
+)

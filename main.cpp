@@ -5,6 +5,9 @@
 #include <iostream>
 #include <cmath>
 #include <string>
+#include "Geometria.h"
+#include "ClaseCirculo.h"
+#include <fstream>
 
 using namespace std;
 
@@ -50,9 +53,27 @@ int main() {
     cout << "Division: " << Matematicas::dividir(num1, num2) << endl;
     cout << "Exponencial: " << Matematicas::exponencial(num1, num2) << endl;
 
-    string continuar;
-    std::cout << "Pulse 0 para continuar: ";
-    std::cin >> continuar;
+    int num;
+    std::string text;
+    std::cout << "Ingresa un numero: ";
+    std::cin >> num;
+    std::cout << "Ingresa un texto: ";
+    std::cin >> text;
+    std::cout << "El número ingresado es: " << num << "\nEl texto ingresado es: " << text << std::endl;
+
+
+    std::ifstream file;
+    file.open("example.txt");
+    if (!file) {
+        std::cerr << "No se pudo abrir el archivo.\n";
+    } else {
+        std::cout << "El archivo se abrió correctamente.\n";
+    }
+    file.close();
+
+    std::cout << "Area del circulo: " << Geometria::areaCirculo(3) << std::endl;
+    std::cout << "Perimetro del circulo: " << Geometria::perimetroCirculo(3) << std::endl;
+
     return 0;
 
 }
